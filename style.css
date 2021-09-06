@@ -101,16 +101,16 @@ a{
     padding-right: 25px;
 }
 /*--------Featured product---------*/
-.col4{
+.col-4{
     flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
+    padding: 5px;
+    min-width: 150px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
-.col4 img{
+.col-4 img{
     width: 100%;
-    display: block;
+   
     
 }
 .title{
@@ -131,23 +131,13 @@ a{
     left: 50%;
     transform: translateX(-50%);
 }
-.button{
-    display: inline-block;
-    background: #ff523b;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-}
-.button:hover{
-    background:#563434;
-}
+
+
 h4{
     color: #555;
     font-weight: normal;
 }
-.col4 p{
+.col-4 p{
     font-size: 14px;
     color: #555;
 }
@@ -155,11 +145,13 @@ h4{
     color: #ff523b;
 
 }
-.col4:hover{
+.col-4:hover{
     transform: translateY(-5px);
 }
+
+
 /*---------leatest products---------*/
-.col5{
+.col-5{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
@@ -167,7 +159,7 @@ h4{
     transition: transform 0.5s;
     
 }
-.col5 img{
+.col-5 img{
     width: 100%;
     
     
@@ -206,7 +198,7 @@ h4{
     color: #555;
     font-weight: normal;
 }
-.col5 p{
+.col-4 p{
     font-size: 14px;
     color: #555;
 }
@@ -214,7 +206,7 @@ h4{
     color: #ff523b;
 
 }
-.col5:hover{
+.col-4:hover{
     transform: translateY(-5px);
 }
 /*------Offer------*/
